@@ -25,6 +25,7 @@
  */
  #header-title {
     color: hsl(194, 49%, 41%);
+    transition: color ease-in-out 0.2s;
  }
 
  #header-title:hover {
@@ -37,6 +38,7 @@
 .section-title {
     font-family: "Questrial", sans-serif;
     color: #670e6a;
+    transition: color ease-in-out 0.2s;
 }
 
 .section-title:hover {
