@@ -61,3 +61,8 @@
 /*
  * Form styling
  */
+
+ /* Birthday gift field */
+ fieldset fieldset {
+    display: flex;
+ }
