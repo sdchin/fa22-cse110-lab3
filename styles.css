@@ -26,6 +26,10 @@
  #header-title {
     color: hsl(194, 49%, 41%);
  }
+
+ #header-title:hover {
+    color: rgb(56, 168, 202);
+ }
   
 /*
  * Section title styling
@@ -35,6 +39,10 @@
     color: #670e6a;
 }
 
+.section-title:hover {
+    color: #a112a5;
+}
+
 /*
  * List styling
  */
@@ -42,7 +50,7 @@
 /*
  * Link styling
  */
- 
+
  
 /*
  * Media styling
