@@ -65,4 +65,22 @@
  /* Birthday gift field */
  fieldset fieldset {
     display: flex;
- }
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form-gift-1-container {
+    order: 3;
+}
+
+#form-gift-2-container {
+    order: 2;
+}
+
+#form-gift-3-container {
+    order: 1;
+}
+
+#form-gift-4-container {
+    order: 0;
+}
