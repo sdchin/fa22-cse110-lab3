@@ -23,15 +23,18 @@
 /*
  * Main page title styling
  */
+ #header-title {
+    color: hsl(194, 49%, 41%);
+ }
   
 /*
  * Section title styling
  */
 .section-title {
     font-family: "Questrial", sans-serif;
+    color: #670e6a;
 }
 
-   
 /*
  * List styling
  */
@@ -39,6 +42,7 @@
 /*
  * Link styling
  */
+ 
  
 /*
  * Media styling
