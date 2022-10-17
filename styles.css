@@ -20,8 +20,19 @@
     padding-left: 0;
  }
 
+ /*
+  * Text styling
+  */
  p {
     font-size: 1rem;
+ }
+
+ span.quote {
+    display: block;
+    background-color: lightgreen;
+    border-left: 4px solid green;
+    font-style: italic;
+    max-width: fit-content;
  }
 
 /*
@@ -99,10 +110,6 @@ nav > ul > li {
     list-style: none;
  }
 
-nav > ul > li > a:active {
-    color: #f93fff;
- }
-
  #attendance > ul {
     margin-top: 0;
     margin-left: auto;
@@ -113,7 +120,9 @@ nav > ul > li > a:active {
 /*
  * Link styling
  */
-
+ nav > ul > li > a:active {
+    color: #f93fff;
+ }
  
 /*
  * Media styling
@@ -209,4 +218,13 @@ legend ~ div > select {
     border-width: 2px;
     border-style: dotted;
     border-color: darkred;
+}
+
+textarea[placeholder="I was born in a pineapple under the sea..."]::placeholder {
+    color: blue;
+}
+
+fieldset > div {
+    display: inline-block;
+    margin: 10px;
 }
