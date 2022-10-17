@@ -219,3 +219,7 @@ legend ~ div > select {
     border-style: dotted;
     border-color: darkred;
 }
+
+textarea[placeholder="I was born in a pineapple under the sea..."]::placeholder {
+    color: blue;
+}
