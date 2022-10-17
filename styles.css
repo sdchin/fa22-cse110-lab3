@@ -24,6 +24,14 @@
     font-size: 1rem;
  }
 
+ span.quote {
+    display: block;
+    background-color: lightgreen;
+    border-left: 4px solid green;
+    font-style: italic;
+    max-width: fit-content;
+ }
+
 /*
  * Logo styling
  */
