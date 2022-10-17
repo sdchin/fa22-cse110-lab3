@@ -20,6 +20,9 @@
     padding-left: 0;
  }
 
+ /*
+  * Text styling
+  */
  p {
     font-size: 1rem;
  }
@@ -107,10 +110,6 @@ nav > ul > li {
     list-style: none;
  }
 
-nav > ul > li > a:active {
-    color: #f93fff;
- }
-
  #attendance > ul {
     margin-top: 0;
     margin-left: auto;
@@ -121,7 +120,9 @@ nav > ul > li > a:active {
 /*
  * Link styling
  */
-
+ nav > ul > li > a:active {
+    color: #f93fff;
+ }
  
 /*
  * Media styling
