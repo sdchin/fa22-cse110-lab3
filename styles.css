@@ -90,6 +90,15 @@ nav > ul > li > a:active {
 /*
  * Media styling
  */
+#media-1 > * {
+    max-width: 300px;
+}
+
+ /* Selects all elements in a li, except for first li */
+ #media > li + li > * {
+    min-width: 300px;
+    max-width: 300px;
+ }
  
 /*
  * Form styling
