@@ -22,6 +22,10 @@
 /*
  * Logo styling
  */
+ #header-logo {
+    height: 75px;
+    width: 75px;
+ }
   
 /*
  * Heading styling
