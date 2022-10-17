@@ -12,6 +12,13 @@
     background-color: antiquewhite;
  }
 
+ section {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+ }
+
 /*
  * Logo styling
  */
@@ -19,7 +26,10 @@
 /*
  * Heading styling
  */  
-  
+h1, h2, h3, h4 {
+    margin: 0 0 10px 0;
+}
+
 /*
  * Main page title styling
  */
@@ -62,6 +72,13 @@ nav > ul > li {
 nav > ul > li > a:active {
     color: #f93fff;
  }
+
+ #attendance > ul {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+ }
  
 /*
  * Link styling
@@ -79,6 +96,7 @@ nav > ul > li > a:active {
  /* Birthday gift field */
 fieldset {
     border-radius: 20px;
+    padding: 20px;
 }
 
  fieldset fieldset {
