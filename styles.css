@@ -103,4 +103,7 @@ legend ~ div > input,
 legend ~ div > textarea,
 legend ~ div > select {
     border-radius: 50px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: darkred;
 }
