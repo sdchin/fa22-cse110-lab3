@@ -6,6 +6,7 @@
 
  :root {
     font-family: "Nunito", sans-serif;
+    font-size: 100%;
  }
 
  body {
@@ -19,15 +20,19 @@
     padding-left: 0;
  }
 
+ p {
+    font-size: 1rem;
+ }
+
 /*
  * Logo styling
  */
  #header-logo {
-    height: 75px;
-    width: 75px;
+    height: 0.78in;
+    width: 0.78in;
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 1vh;
+    left: 1vh;
  }
   
 /*
@@ -35,6 +40,22 @@
  */  
 h1, h2, h3, h4 {
     margin: 0 0 10px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
 }
 
 /*
@@ -108,7 +129,7 @@ nav > ul > li > a:active {
  }
 
  #cat {
-    height: 75px;
+    height: 1.98cm;
     width: auto;
     position: relative;
     left: 85vw;
