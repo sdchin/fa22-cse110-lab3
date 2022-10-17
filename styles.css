@@ -98,3 +98,9 @@ nav > ul > li > a:active {
 #form-gift-4-container {
     order: 0;
 }
+
+legend ~ div > input,
+legend ~ div > textarea,
+legend ~ div > select {
+    border-radius: 50px;
+}
