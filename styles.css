@@ -25,6 +25,9 @@
  #header-logo {
     height: 75px;
     width: 75px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
  }
   
 /*
@@ -103,7 +106,14 @@ nav > ul > li > a:active {
     min-width: 300px;
     max-width: 300px;
  }
- 
+
+ #cat {
+    height: 75px;
+    width: auto;
+    position: relative;
+    left: 85vw;
+ }
+
 /*
  * Form styling
  */
