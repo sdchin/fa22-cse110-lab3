@@ -36,6 +36,7 @@ h1, h2, h3, h4 {
  #header-title {
     color: hsl(194, 49%, 41%);
     transition: color ease-in-out 0.2s;
+    text-align: center;
  }
 
  #header-title:hover {
@@ -49,6 +50,7 @@ h1, h2, h3, h4 {
     font-family: "Questrial", sans-serif;
     color: #670e6a;
     transition: color ease-in-out 0.2s;
+    text-decoration: underline dotted #670e6a;
 }
 
 .section-title:hover {
@@ -97,6 +99,10 @@ nav > ul > li > a:active {
 fieldset {
     border-radius: 20px;
     padding: 20px;
+}
+
+legend {
+    text-align: center;
 }
 
  fieldset fieldset {
