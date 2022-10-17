@@ -77,10 +77,15 @@ nav > ul > li > a:active {
  */
 
  /* Birthday gift field */
+fieldset {
+    border-radius: 20px;
+}
+
  fieldset fieldset {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: none;
 }
 
 #form-gift-1-container {
