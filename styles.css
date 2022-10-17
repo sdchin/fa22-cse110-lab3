@@ -100,6 +100,10 @@ fieldset {
     padding: 20px;
 }
 
+legend {
+    text-align: center;
+}
+
  fieldset fieldset {
     display: flex;
     justify-content: space-between;
