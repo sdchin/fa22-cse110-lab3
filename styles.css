@@ -48,6 +48,20 @@
 /*
  * List styling
  */
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ }
+ 
+nav > ul > li {
+    list-style: none;
+ }
+
+nav > ul > li > a:active {
+    color: #f93fff;
+ }
  
 /*
  * Link styling
