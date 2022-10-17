@@ -223,3 +223,8 @@ legend ~ div > select {
 textarea[placeholder="I was born in a pineapple under the sea..."]::placeholder {
     color: blue;
 }
+
+fieldset > div {
+    display: inline-block;
+    margin: 10px;
+}
